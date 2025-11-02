@@ -1,0 +1,5 @@
+{
+  "name": "PitchPerfect AI",
+  "description": "An AI-powered evaluator for startup pitch decks and business plans. Upload your pitch to receive scores on key metrics, a full SWOT analysis, and actionable suggestions for improvement, all benchmarked against investor expectations.",
+  "requestFramePermissions": []
+}
