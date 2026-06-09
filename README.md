@@ -1,5 +1,5 @@
 <div align="center">
-<img width="1200" height="400" alt="pitchperfect-ai banner" src="./assets/banner.png" />
+<img width="1200" height="400" alt="pitchperfect-ai banner" src="./assets/banner_pitch_17809874771471.png" />
 
 # pitchperfect-ai
 
