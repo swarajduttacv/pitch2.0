@@ -126,7 +126,7 @@ export async function evaluatePitch(pitchText: string, persona: keyof typeof PER
 
   try {
     const response = await ai.models.generateContent({
-      model: 'gemini-3.5-flash-preview',
+      model: 'gemini-3-flash',
       contents: userPrompt,
       config: {
         systemInstruction: systemInstruction,
