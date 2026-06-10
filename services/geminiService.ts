@@ -126,7 +126,7 @@ export async function evaluatePitch(pitchText: string, persona: keyof typeof PER
 
   try {
     const response = await ai.models.generateContent({
-      model: 'gemini-2.5-pro',
+      model: 'gemini-3.5-flash-preview',
       contents: userPrompt,
       config: {
         systemInstruction: systemInstruction,
@@ -153,7 +153,7 @@ export function createChat(context: string): Chat {
     const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
     
     return ai.chats.create({
-      model: 'gemini-2.5-flash',
+      model: 'gemini-3.1-flash-lite',
       config: {
         systemInstruction: `You are an elite AI strategy consultant for PitchPerfect AI, modeled after a top-tier consultant from a firm like McKinsey or BCG. The user is asking for follow-up advice on a specific part of their pitch evaluation. Your communication style must be direct, data-driven, and highly structured.
 
